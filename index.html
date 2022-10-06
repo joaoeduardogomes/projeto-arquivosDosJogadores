@@ -13,99 +13,535 @@
     <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
-    <main class="container-fluid" data-bs-toggle="modal" data-bs-target="#modalCoala">
-        <div class="pasta" id="coala">
-            <img src="src/img/amongus/coala-cropped.png" alt="personagem do coala letrado">
-            <p class="nome">Coala Letrado</p>
+    <main class="container-fluid" id="principal">
+        <div class="pasta" id="coala" >
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalCoala"> 
+                <img src="src/img/amongus/coala-cropped.png" alt="personagem do coala letrado">
+                <p class="nome">Coala Letrado</p>
+            </a>
         </div>
 
         <div class="pasta" id="dan365">
-            <img src="src/img/amongus/dan365-cropped.png" alt="personagem do dan365">
-            <p class="nome">Dan365</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalDan">
+                <img src="src/img/amongus/dan365-cropped.png" alt="personagem do dan365">
+                <p class="nome">Dan365</p>
+            </a>
         </div>
 
         <div class="pasta" id="elMono">
-            <img src="src/img/amongus/el-mono-cropped.png" alt="personagem do el mono">
-            <p class="nome">El Mono</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalElMono">
+                <img src="src/img/amongus/el-mono-cropped.png" alt="personagem do el mono">
+                <p class="nome">El Mono</p>
+            </a>
         </div>
 
         <div class="pasta" id="jonas">
-            <img src="src/img/amongus/jonas-cropped.png" alt="personagem do jonas">
-            <p class="nome">Jonas</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalJonas">
+                <img src="src/img/amongus/jonas-cropped.png" alt="personagem do jonas">
+                <p class="nome">Jonas</p>
+            </a>
         </div>
 
         <div class="pasta" id="demonLord">
-            <img src="src/img/amongus/julian-cropped.png" alt="personagem do demon lord">
-            <p class="nome">Demon Lord</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalJulian">
+                <img src="src/img/amongus/julian-cropped.png" alt="personagem do demon lord">
+                <p class="nome">Demon Lord</p>
+            </a>
         </div>
 
         <div class="pasta" id="sayd">
-            <img src="src/img/amongus/sayd-cropped.png" alt="personagem do sayd">
-            <p class="nome">SaydoChest</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalSayd">
+                <img src="src/img/amongus/sayd-cropped.png" alt="personagem do sayd">
+                <p class="nome">SaydoChest</p>
+            </a>
         </div>
 
         <div class="pasta" id="vetrago">
-            <img src="src/img/amongus/vetrago-cropped.png" alt="personagem do vetrago">
-            <p class="nome">Vetrago</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalVetrago">
+                <img src="src/img/amongus/vetrago-cropped.png" alt="personagem do vetrago">
+                <p class="nome">Vetrago</p>
+            </a>
         </div>
     </main>
 
 
     <!-- Modals: -->
-    <div class="modal fade" id="modalCoala" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content modal-popout-bg arquivo">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 374195</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="arquivo-parteSuperior">
-                        <img src="src/img/amongus/coala-profile.png" alt="personagem do coala" class="polaroid">
-                        <div class="dados">
-                            <span class="item">
-                                <p class="pergunta">Nome: </p>
-                                <p class="resposta">João</p>
+    <div class="container">
+        <div class="modal fade" id="modalCoala" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popout-bg arquivo">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 374195</h1>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="arquivo-parteSuperior">
+                            <span class="imagens">
+                                <img src="src/img/amongus/coala-profile.png" alt="personagem do coala" class="polaroid">
+                                <img src="src/img/decoração/tape01-cinza.png" class="fita">
                             </span>
-                            <span class="item">
-                                <p class="pergunta">Apelido(s): </p>
-                                <p class="resposta">Coala Letrado, TaigaKun21</p>
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Nome: </p>
+                                    <p class="resposta">João</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Apelido: </p>
+                                    <p class="resposta">Coala Letrado</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="arquivo-parteInferior">
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Anime favorito: </p>
+                                    <p class="resposta">Beck</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Jogo favorito: </p>
+                                    <p class="resposta">The Last of Us</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Gosta de: </p>
+                                    <p class="resposta">Filmes, jogos, livros, HQs</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Não gosta de: </p>
+                                    <p class="resposta">Pessoas que falam alto, viajar</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Frase favorita: </p>
+                                    <p class="resposta">"七転び八起き" (caia 7 vezes, levante-se 8 vezes)</p>
+                                </span>
+                            </div>
+                            <span class="imagens">
+                                <img src="src/img/img-alternativas/coala-avatar.png" alt="coala letrado"
+                                    class="polaroid polaroid2">
+                                <img src="src/img/img-alternativas/coala-pixel.png" alt="coala letrado"
+                                    class="polaroid polaroid3">
+                                <img src="src/img/decoração/paper-clip02-cropped.png" alt="" class="paperclip">
                             </span>
                         </div>
-                    </div>
-                    <div class="arquivo-parteInferior">
-                        <div class="dados">
-                            <span class="item">
-                                <p class="pergunta">Anime favorito: </p>
-                                <p class="resposta">Beck</p>
-                            </span>
-                            <span class="item">
-                                <p class="pergunta">Jogo favorito: </p>
-                                <p class="resposta">The Last of Us</p>
-                            </span>
-                            <span class="item">
-                                <p class="pergunta">Gosta de: </p>
-                                <p class="resposta">Filmes, jogos, livros, HQs</p>
-                            </span>
-                            <span class="item">
-                                <p class="pergunta">Não gosta de: </p>
-                                <p class="resposta">Pessoas que falam alto, viajar</p>
-                            </span>
-                            <span class="item">
-                                <p class="pergunta">Frase favorita: </p>
-                                <p class="resposta">七転び八起き (caia 7 vezes, levante-se 8 vezes)</p>
-                            </span>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>   
+    
+        <div class="modal fade" id="modalDan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popout-bg arquivo">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 126199</h1>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="arquivo-parteSuperior">
+                            <span class="imagens">
+                                <img src="src/img/amongus/dan365-profile.png" alt="personagem do coala" class="polaroid">
+                                <img src="src/img/decoração/tape01-cinza.png" class="fita">
+                            </span>
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Nome: </p>
+                                    <p class="resposta">Daniel</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Apelido: </p>
+                                    <p class="resposta">Dan365</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="arquivo-parteInferior">
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Anime favorito: </p>
+                                    <p class="resposta">Saekano</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Jogo favorito: </p>
+                                    <p class="resposta">Genshin Impact</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Gosta de: </p>
+                                    <p class="resposta">Jogar YGO, ser um com a noite, matar sem nem levantar suspeitas</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Não gosta de: </p>
+                                    <p class="resposta">Rent a girfriend</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Frase favorita: </p>
+                                    <p class="resposta">"Foi o Julian."</p>
+                                </span>
+                            </div>
+                            <span class="imagens">
+                                <img src="src/img/img-alternativas/quadrado-preto.jpg" alt="coala letrado"
+                                    class="polaroid polaroid2">
+                                <img src="src/img/img-alternativas/quadrado-cinza.jpg" alt="coala letrado"
+                                    class="polaroid polaroid3">
+                                <img src="src/img/decoração/paper-clip02-cropped.png" alt="" class="paperclip">
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalElMono" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popout-bg arquivo">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 843707</h1>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="arquivo-parteSuperior">
+                            <span class="imagens">
+                                <img src="src/img/amongus/el-mono-profile.png" alt="personagem do coala" class="polaroid">
+                                <img src="src/img/decoração/tape01-cinza.png" class="fita">
+                            </span>
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Nome: </p>
+                                    <p class="resposta">Fernando</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Apelido: </p>
+                                    <p class="resposta">EL MONO</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="arquivo-parteInferior">
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Anime favorito: </p>
+                                    <p class="resposta">Hunter X Hunter</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Jogo favorito: </p>
+                                    <p class="resposta">From Software ones</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Gosta de: </p>
+                                    <p class="resposta">Cerveja</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Não gosta de: </p>
+                                    <p class="resposta">Velhos</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Frase favorita: </p>
+                                    <p class="resposta">"Tá. Mas de que adianta se você for gay?"</p>
+                                </span>
+                            </div>
+                            <span class="imagens">
+                                <img src="src/img/img-alternativas/quadrado-preto.jpg" alt="coala letrado"
+                                    class="polaroid polaroid2">
+                                <img src="src/img/img-alternativas/quadrado-cinza.jpg" alt="coala letrado"
+                                    class="polaroid polaroid3">
+                                <img src="src/img/decoração/paper-clip02-cropped.png" alt="" class="paperclip">
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalJonas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popout-bg arquivo">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 404093</h1>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="arquivo-parteSuperior">
+                            <span class="imagens">
+                                <img src="src/img/amongus/jonas-profile.png" alt="personagem do coala" class="polaroid">
+                                <img src="src/img/decoração/tape01-cinza.png" class="fita">
+                            </span>
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Nome: </p>
+                                    <p class="resposta">João</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Apelido: </p>
+                                    <p class="resposta">John | Jonas</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="arquivo-parteInferior">
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Anime favorito: </p>
+                                    <p class="resposta">One Piece</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Jogo favorito: </p>
+                                    <p class="resposta">Kingdom Hearts 3</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Gosta de: </p>
+                                    <p class="resposta">Ver desenho tailandês, jogar jogos, de preferência com alguém</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Não gosta de: </p>
+                                    <p class="resposta">Kaifuku</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Frase favorita: </p>
+                                    <p class="resposta">"Não existe trabalho ruim, o ruim é ter que trabalhar"</p>
+                                </span>
+                            </div>
+                            <span class="imagens">
+                                <img src="src/img/img-alternativas/quadrado-preto.jpg" alt="coala letrado"
+                                    class="polaroid polaroid2">
+                                <img src="src/img/img-alternativas/quadrado-cinza.jpg" alt="coala letrado"
+                                    class="polaroid polaroid3">
+                                <img src="src/img/decoração/paper-clip02-cropped.png" alt="" class="paperclip">
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalJulian" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popout-bg arquivo">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 857909</h1>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="arquivo-parteSuperior">
+                            <span class="imagens">
+                                <img src="src/img/amongus/julian-profile.png" alt="personagem do coala" class="polaroid">
+                                <img src="src/img/decoração/tape01-cinza.png" class="fita">
+                            </span>
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Nome: </p>
+                                    <p class="resposta">Julian</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Apelido: </p>
+                                    <p class="resposta">Demon Lord</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="arquivo-parteInferior">
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Anime favorito: </p>
+                                    <p class="resposta">Gabriel Dropout</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Jogo favorito: </p>
+                                    <p class="resposta">Monster Hunter</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Gosta de: </p>
+                                    <p class="resposta">Jogar YGO, apagar a luz, matar pessoas na elétrica</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Não gosta de: </p>
+                                    <p class="resposta">Shield Hero</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Frase favorita: </p>
+                                    <p class="resposta">"As lolis estão fugindo."</p>
+                                </span>
+                            </div>
+                            <span class="imagens">
+                                <img src="src/img/img-alternativas/quadrado-preto.jpg" alt="coala letrado"
+                                    class="polaroid polaroid2">
+                                <img src="src/img/img-alternativas/quadrado-cinza.jpg" alt="coala letrado"
+                                    class="polaroid polaroid3">
+                                <img src="src/img/decoração/paper-clip02-cropped.png" alt="" class="paperclip">
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalSayd" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popout-bg arquivo">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 472678</h1>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="arquivo-parteSuperior">
+                            <span class="imagens">
+                                <img src="src/img/amongus/sayd-profile.png" alt="personagem do coala" class="polaroid">
+                                <img src="src/img/decoração/tape01-cinza.png" class="fita">
+                            </span>
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Nome: </p>
+                                    <p class="resposta">Felipe</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Apelido: </p>
+                                    <p class="resposta">Sayd</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="arquivo-parteInferior">
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Anime favorito: </p>
+                                    <p class="resposta">Sora Yori Mo Tooi Basho</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Jogo favorito: </p>
+                                    <p class="resposta">Final Fantasy Tactics</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Gosta de: </p>
+                                    <p class="resposta">Hunter x Hunter</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Não gosta de: </p>
+                                    <p class="resposta">Naruto</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Frase favorita: </p>
+                                    <p class="resposta">"É mais comum do que você imagina."</p>
+                                </span>
+                            </div>
+                            <span class="imagens">
+                                <img src="src/img/img-alternativas/quadrado-preto.jpg" alt="coala letrado"
+                                    class="polaroid polaroid2">
+                                <img src="src/img/img-alternativas/quadrado-cinza.jpg" alt="coala letrado"
+                                    class="polaroid polaroid3">
+                                <img src="src/img/decoração/paper-clip02-cropped.png" alt="" class="paperclip">
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="modalVetrago" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-popout-bg arquivo">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">NO# 593873</h1>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="arquivo-parteSuperior">
+                            <span class="imagens">
+                                <img src="src/img/amongus/vetrago-profile.png" alt="personagem do coala" class="polaroid">
+                                <img src="src/img/decoração/tape01-cinza.png" class="fita">
+                            </span>
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Nome: </p>
+                                    <p class="resposta">Vinicyus</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Apelido: </p>
+                                    <p class="resposta">Vetrago</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="arquivo-parteInferior">
+                            <div class="dados">
+                                <span class="item">
+                                    <p class="pergunta">Anime favorito: </p>
+                                    <p class="resposta">Kaifuku</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Jogo favorito: </p>
+                                    <p class="resposta">Batalha de peão</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Gosta de: </p>
+                                    <p class="resposta">Ver o próprio reflexo em um lago</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Não gosta de: </p>
+                                    <p class="resposta">Pessoas 3D</p>
+                                </span>
+                                <span class="item">
+                                    <p class="pergunta">Frase favorita: </p>
+                                    <p class="resposta">"incrível a semelhança que eu tenho com o Light Yagami de death note
+                                        Além de sermos literalmente iguais... temos o mesmo mindset, ambos somos
+                                        extremamente frios e estrategistas em nossa forma de pensar e agir... bizarro '-'
+                                        ele me representa muito, somos dois deuses neste mundo"</p>
+                                </span>
+                            </div>
+                            <span class="imagens">
+                                <img src="src/img/img-alternativas/quadrado-preto.jpg" alt="coala letrado"
+                                    class="polaroid polaroid2">
+                                <img src="src/img/img-alternativas/quadrado-cinza.jpg" alt="coala letrado"
+                                    class="polaroid polaroid3">
+                                <img src="src/img/decoração/paper-clip02-cropped.png" alt="" class="paperclip">
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+
+    <footer>
+        <a href="src/pages/creditos.html">Créditos das imagens usadas</a>
+    </footer>
+
     <!-- Bootstrap JS: -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="src/script/jquery-3.6.1.min.js"></script>
+
+    <script>
+        $('.imagens .polaroid2').click(function () {
+            $(this).toggleClass("deslocado");
+        });
+
+        $('.btn').click(function () {
+            $('.polaroid2').removeClass("deslocado");
+        });
+
+        $(document).keyup(function () {
+            $('.polaroid2').removeClass("deslocado");
+        });
+    </script>
+    
 </body>
 </html>
