@@ -74,7 +74,7 @@ main {
     margin-top: 20%;
     width: 40.625rem;
     height: 44.75rem;
-    background-image: url('../img/fundos/papel01.jpg');
+    background-image: url('../img/fundos/papel01.webp');
     background-position: center bottom;
     background-size: cover;
     background-color: transparent;
@@ -195,19 +195,19 @@ main {
 
 /* FUNDOS PERSONALIZADOS: */
 #modalJonas .arquivo {
-    background-image: url('../img/fundos/papel03.jpg');
+    background-image: url('../img/fundos/papel03.webp');
 }
 #modalJulian .arquivo {
-    background-image: url('../img/fundos/papel02.jpg');
+    background-image: url('../img/fundos/papel02.webp');
 }
 #modalSayd .arquivo {
-    background-image: url('../img/fundos/papel04.jpg');
+    background-image: url('../img/fundos/papel04.webp');
 }
 #modalVetrago .arquivo {
-    background-image: url('../img/fundos/papel05.jpg');
+    background-image: url('../img/fundos/papel05.webp');
 }
 #modalDan .arquivo {
-    background-image: url('../img/fundos/papel06.jpg');
+    background-image: url('../img/fundos/papel06.webp');
 }
 
 /* RODAPÉ: */
